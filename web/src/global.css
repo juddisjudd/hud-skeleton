@@ -1,0 +1,53 @@
+body {
+    background-image: url('https://i.imgur.com/e64SL2N.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#hud {
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    bottom: 1.5%;
+    left: 1%;
+}
+
+.status {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    height: 35px;
+    color: white;
+    margin-right: 6px;
+    background-color: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.6);
+    border-radius: 6px;
+    backdrop-filter: blur(5px);
+    transform: skew(-5deg);
+    position: relative;
+    z-index: 1;
+}
+
+.status .icon {
+    position: relative;
+    z-index: 1;
+}
+
+.filling {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    transition: height 0.5s ease;
+    border-radius: 6px;
+}
+  
+#health .filling { background-color: #d64541; }
+#thirst .filling { background-color: #4871f7; }
+#hunger .filling { background-color: #FFA500; }
+#stress .filling  { background-color: #9f5afd; } 
+#armor .filling  { background-color: #342d71; } 
+#oxygen .filling  { background-color: #3498db; } 
+#stamina .filling  { background-color: #3fc380; } 
+#developerStatus { background-color: #141414; }
