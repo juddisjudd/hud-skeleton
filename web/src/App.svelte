@@ -11,10 +11,6 @@
   ]);
 </script>
 
-<head>
-  <link rel="stylesheet" href="/src/global.css">
-</head>
-
 <main>
   <VisibilityProvider>
     <HUD />
