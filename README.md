@@ -3,6 +3,9 @@ Skeleton for a FiveM HUD.
 
 ***DOES NOT HAVE ANY REAL FUNCTIONAILITY, DIY.***
 
+## Info
+To build just go to web folder, pnpm install.
+
 ![](https://i.imgur.com/jodWI2M.jpeg)
 
 ### Credits
