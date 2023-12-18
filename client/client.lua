@@ -3,9 +3,9 @@ RegisterNUICallback('hideUI', function(_, cb)
     SetNuiFocus(false, false)
 end)
 
-Citizen.CreateThread(function()
+CreateThread(function()
     while true do
-        Citizen.Wait(1000)
+        Wait(1000)
 
         local health = GetEntityHealth(PlayerPedId())
         local armor = GetPedArmour(PlayerPedId())
